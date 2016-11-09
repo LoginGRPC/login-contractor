@@ -1,0 +1,5 @@
+package: yadavparmatma/login-contractor
+import:
+- package: github.com/golang/protobuf
+  subpackages:
+  - proto
