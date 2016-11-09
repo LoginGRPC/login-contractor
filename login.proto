@@ -4,6 +4,7 @@ package login;
 
 service UserService {
     rpc Ping(PingRequest) returns (PingResponse){}
+    rpc Login(LoginRequest) returns (LoginResponse) {}
 }
 
 message PingRequest {
