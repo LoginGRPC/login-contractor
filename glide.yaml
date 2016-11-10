@@ -3,3 +3,5 @@ import:
 - package: github.com/golang/protobuf
   subpackages:
   - proto
+- package: github.com/grpc/grpc-go
+  version: ^v1.0.1-GA
